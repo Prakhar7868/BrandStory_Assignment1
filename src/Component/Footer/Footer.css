@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.footer{
+    margin-top:4rem;
+    background-color:#2d282b;
+    text-align: center;
+    }
+    
+    .footer_box{
+    padding:3rem 0;
+        
+    }
+    
+    .footer-border{
+    border-bottom:2px solid  black;
+
+    }
+
+    .footer-border1{
+        border-right: 2px solid black;
+        
+    }
+    .footer .footer-menu ul li a,
+    .footer p,
+    .footer ul li{
+    color:white;
+    list-style:none;
+        
+    }
+
+
+    .heading{
+        color: white;
+    }
+    
+    .footer-widget ul li a{
+    font-size:18px;
+    line-height:2rem;
+    text-decoration:none;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    -ms-transition:0.3s;
+    -moz-transition:0.3s;
+    transition:0.3s;
+    }
+    
+    .footer-widget ul li a:hover{
+    color:#F90CA7;
+    }
+
+    .footer-widget h6{
+        color: white;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-color a{
+        color:white;
+    }
+
+    .footer-padding{
+        padding-bottom: 30px;
+    }
+    
+
+    .footer-menu{
+        border-bottom:2px solid black;
+        
+    }
+
+   .footer-widget .main-btn{
+        position:relative;
+        display:inline-block;
+        width:auto;
+        height:auto;
+        background:transparent;
+        border:none;
+        cursor:pointer;
+        margin-top:1rem;
+        overflow:hidden;
+        color:#18d8e3;
+        
+        }
+        
+       .footer-widget .main-btn span{
+        font-size:1rem;
+        font-weight:600;
+        letter-spacing:0.02rem;
+        text-decoration:none;
+        border:2px solid #18d8e3;
+        width:100%;
+        padding:0.6rem 3rem;
+        display:block;
+        border-radius:0.1rem;
+        transition:all ease .5s;
+        z-index:2;
+        position:relative;
+        text-align:center;
+        cursor:pointer;
+        }
+        
+.footer-widget .effect{
+        width:100%;
+        height:100%;
+        left:-100%;
+        border-radius:0.1rem;
+        background:#18d8e3;
+        position:absolute;
+        transition:all .5s ease;
+        z-index:1;
+        }
+        
+      .footer-widget  .main-btn:hover .effect{
+        left:0;
+        }
+        
+.footer-widget .main-btn:hover span{
+        color:white;
+        }
+
+
+        .footer-icons{
+            margin-bottom:0px;
+            margin-left: 15px;
+        }
+        .footer-icons li{
+            list-style:none;
+            display:inline-block;
+            margin: 1rem 0.2rem;
+    
+        }
+    
+        .footer-icons li a{
+            color: white;
+            font-size: 0.2rem;
+            margin: 5rem 0.2rem;
+        }
+    
+       .footer-icons li a .icon{
+            width:2rem;
+            height:2rem;
+            line-height:2.4rem;
+            text-align:center;
+            color:white;
+            
+            border-radius:2rem;
+            -webkit-transition:0.3s ease-in-out;
+            -moz-transition:0.3s ease-in-out;
+                transition:0.3s ease-in-out;
+    
+       }
+    
+       .footer-icons li a .icon:hover{
+        background:#F90CA7;
+        color:white;
+        transform:translateY(-0.5rem);
+        }

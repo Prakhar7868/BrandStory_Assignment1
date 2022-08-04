@@ -1,0 +1,188 @@
+
+.Section_part1{
+    background:white;
+    box-shadow:0 5px 5px 0 rgba(0,0,0,.1);
+    position:relative;
+    width:100%;
+    }
+    
+    .Section_part1 a{
+    text-transform:uppercase;
+    color:black;
+    text-decoration:none;
+    line-height:100px;
+    font-size:18px;
+    font-weight: 900;
+    display:inline-block;
+    text-align:center;
+    z-index:1;
+    position:relative;
+    
+    
+    }
+    
+    .animation{
+    position:absolute;
+    height:5px;
+    background:black;
+    bottom:0px;
+    z-index:0;
+    transition:all .5s ease 0s;
+    }
+    
+    .Section_part1  a:nth-child(1){
+    width:25%;	
+    }
+    .title-home,  .Section_part1 a:nth-child(1):hover~.animation{
+    width:25%;
+    left:0px;
+    }
+    
+    
+    .Section_part1 a:nth-child(2){
+    width:25%;	
+    }
+    .title-about,  .Section_part1 a:nth-child(2):hover~.animation{
+    width:25%;
+    left:25%;
+    }
+    
+    .Section_part1 a:nth-child(3){
+    width:25%;	
+    }
+    .title-blog,  .Section_part1 a:nth-child(3):hover~.animation{
+    width:25%
+    ;
+    left:50%;
+    }
+    
+    .Section_part1 a:nth-child(4){
+    width:25%;	
+    }
+    .title-portfolio,  .Section_part1 a:nth-child(4):hover~.animation{
+    width:25%;
+    left:75%;
+    }
+    
+    
+    a:nth-child(5){
+    width:120px;	
+    }
+    .title-contact,  .Section_part1 a:nth-child(5):hover~.animation{
+    width:120px;
+    left:470px;
+    }
+
+    .Section_part-1{
+        margin-left: 30px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .main-btn{
+        position:relative;
+        display:inline-block;
+        width:auto;
+        height:auto;
+        background:transparent;
+        border:none;
+        cursor:pointer;
+        margin-top:1rem;
+        overflow:hidden;
+        }
+        
+        .main-btn span{
+        font-size:1rem;
+        font-weight:600;
+        letter-spacing:0.02rem;
+        text-decoration:none;
+        border:2px solid #F90CA7;
+        width:100%;
+        padding:1rem 6.75rem;
+        display:block;
+        border-radius:0.1rem;
+        transition:all ease .5s;
+        z-index:2;
+        position:relative;
+        text-align:center;
+        cursor:pointer;
+        }
+        
+        .effect{
+        width:100%;
+        height:100%;
+        left:-100%;
+        border-radius:0.1rem;
+        background:#F90CA7;
+        position:absolute;
+        transition:all .5s ease;
+        z-index:1;
+        }
+        
+        .main-btn:hover .effect{
+        left:0;
+        }
+        
+        .main-btn:hover span{
+        color:white;
+        }
+
+        .Sectionimage1{
+            width:100%;
+            height:500px;
+        }
+        
+      
+
+        .sectionbox{
+            padding:1.5rem 1.2rem;
+            border-radius: 0.1rem;
+            background-color:#160653;
+            -webkit-transition:background 1s;
+            -moz-transition: background 1s;
+            transition: background 1s;
+            margin-top: 50px;
+            color:white;
+            
+            
+            }
+            
+            .sectionbox:hover, .sectionbox .active{
+            background-color: #f90ca7;
+            -webkit-transition:background 1s;
+            -moz-transition: background 1s;
+            transition: background 1s;
+            }
+
+            .sectionbox3{
+                background-color:#1e2238;
+            }
+
+            .sectionbox2{
+                background-color:#a10b9d;
+            }
+
+            .sectionbox4{
+                background-color: #360434;
+            }
+
+            .sectionbox-content p a{
+                    color:white;
+                    text-decoration:none;
+                    background:#2b0b23;
+                    padding:8px 20px;
+                    border-radius:20px;
+                    
+                    }
+            
+            
+        @media (max-width:992px){
+            .Sectionimage1{
+                width:100%;
+                margin-top: 30px;
+            }
+
+            .section1{
+                width:100%;
+            }
+        }

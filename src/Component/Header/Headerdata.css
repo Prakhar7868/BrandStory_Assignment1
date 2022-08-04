@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.hfont1{
+    font-size: 50px;
+}
+
+.Header_section{
+    width:100%;
+position: relative;
+padding-bottom: 50px;
+background: linear-gradient(225deg, #20040e 0%, #03056d 100%);
+padding-top: 30px;
+color: white;
+}
+
+.headimage{
+    width:100%;
+}
+
+@media (max-width:992px){
+    .headimage{
+        wdth:100%;
+
+    }
+}

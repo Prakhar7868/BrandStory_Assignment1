@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+
+    overflow-x:hidden ;
+}
+.Head{
+    background: linear-gradient(225deg, #20040e 0%, #03056d 100%)
+}
+
+.Navigationbar{
+    padding-top: 40px;
+}
+
+
+.navcolor{
+    color: white;
+}
+
+
+@media (max-width:992px){
+    .menu-toggle{
+        position:relative;
+    }
+    .menu-toggle span{
+        width:2rem;
+        height:0.2rem;
+        display:block;
+        background-color:black;
+        margin:0.35rem;
+        cursor:pointer;
+        
+        
+    }
+    #collapsibleNavbar ul{
+        text-align:center;
+        }
+
+
+    }
